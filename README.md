@@ -62,8 +62,6 @@
 ### Backend
 ```bash
 cd backend
-pip install -r requirements.txt
-python add_to_problems.py
-uvicorn api:app --reload
+
 python add_to_problems.py
 uvicorn api:app --reload
