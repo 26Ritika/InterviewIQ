@@ -1,6 +1,6 @@
 # 🤖 InterviewIQ
 
-> AI-powered interview preparation platform built for Google, Amazon, Meta interviews
+> AI-powered interview preparation platform built for Google, Amazon,Microsift, Meta interviews
 
 
 
@@ -31,8 +31,8 @@
 - 💡 **3-Level Hint Engine** — Vague → Medium → Specific hints
 - ⚡ **Complexity Analyzer** — Instant Big-O analysis
 - 🌿 **Pattern Detector** — Identify DSA patterns
-- 👨‍💻 **AI Code Review** — Get feedback like a Google engineer
-- 🎯 **Mock Interview** — Simulate real Google interviews with AI
+- 👨‍💻 **AI Code Review** — Get feedback like a big tech engineer
+- 🎯 **Mock Interview** — Simulate real interviews with AI
 - 🤖 **AI Chat Coach** — ChatGPT for interview prep
 - 📊 **Progress Dashboard** — GitHub-style streak calendar
 - 🏆 **Leaderboard** — Compete with other users
@@ -62,6 +62,9 @@
 ### Backend
 ```bash
 cd backend
+pip install -r requirements.txt
+python add_to_problems.py
+uvicorn api:app --reload
 pip install -r requirements.txt
 python add_to_problems.py
 uvicorn api:app --reload
