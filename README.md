@@ -1,6 +1,6 @@
 # 🤖 InterviewIQ
 
-> AI-powered interview preparation platform built for Google, Amazon, Meta interviews
+> AI-powered interview preparation platform built for Google, Amazon,Microsoft, Meta interviews
 
 
 
